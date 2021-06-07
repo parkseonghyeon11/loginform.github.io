@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/* 기본 초기화 값 */
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+/* 로그인 페이지 */
+body {
+    background: url(../img/웹2\ 배경.jpg) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.wrap {
+    width: 840px;
+    height: 970px;
+    margin: 55px auto;
+    background-color: rgba(48, 48, 48, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+}
+.wrap .main {
+    width: 100%;
+    height: 465px;
+    display: block;
+}
+.wrap form {
+    width: 512px;
+    text-align: center;
+    margin: 71px auto;
+}
+.wrap fieldset {border: 0;}
+.wrap legend {
+    position: absolute;
+    left: -9999999999px;
+}
+.wrap label {
+    position: absolute;
+    left: -9999999999px;
+}
+.wrap .box {
+    width: 512px;
+    height: 55px;
+    color: #fff;
+    background: url(../img/웹2\ 로그인\ 박스.png) center center / cover no-repeat;
+    margin-bottom: 25px;
+    padding: 20px 60px;
+    border: 0;
+    box-sizing: border-box;
+}
+.wrap .box::placeholder {
+    color: #fff;
+}
+.wrap .box:focus {
+    outline: 0;
+}
+.wrap .p_box {
+    margin-bottom: 20px;
+}
+.wrap .p_box::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.wrap .p_box p:first-child {
+    float: left;
+}
+.wrap .p_box p:last-child {
+    float: right;
+}
+.wrap button {
+    width: 160px;
+    height: 50px;
+    font-size: 19px;
+    border: 1px solid #404040;
+    border-radius: 10px;
+    margin-bottom: 45px;
+}
+.wrap .sns {
+    width: 85px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.wrap .sns::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.wrap .sns a {
+    float: left;
+    width: 35px;
+    margin-right: 15px;
+}
+.wrap .sns a:last-child {
+    margin-right: 0;
+}
+p {
+    font-size: 16px;
+    color: #fff;
+}
