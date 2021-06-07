@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+/* setting */
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {
+    text-decoration: none;
+    color: #505050;
+    display: block;
+}
+
+
+/* login */
+fieldset {
+    border: 0;
+}
+legend {
+    position: absolute;
+    left: -999999px;
+}
+label {
+    position: absolute;
+    left: -999999px;
+}
+.wrap {
+    width: 375px;
+    height: 812px;
+    text-align: center;
+}
+.wrap > img {
+    width: 323px;
+    height: 22px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 103px;
+    display: block;
+}
+.wrap_in::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+#login {
+    margin-top: 72px;
+    height: 466px;
+    background: url(../img/모바일1\ 로그인배경.jpg) left center / contain no-repeat;
+}
+#login h3 {
+    margin-top: 58px;
+    font-size: 22px;
+}
+#login h3:first-child {
+    float: left;
+    color: #fff;
+    text-align: left;
+    margin-left: 26px;
+}
+#login h3:nth-child(2) {
+    float: right;
+    color: #505050;
+    text-align: right;
+    margin-right: 26px;
+}
+#login .login {
+    width: 323px;
+    height: 322px;
+    margin: 0 auto;
+    padding-top: 70px;
+    box-sizing: border-box;
+    background: url(../img/로그인\ 폼.png) center center / cover no-repeat;
+}
+#login input[type="text"], input[type="password"] {
+    width: 270px;
+    height: 55px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #B5B5B5;
+    border-radius: 10px;
+    background-color: #FCFCFC;
+}
+#login input[type="text"], input[type="password"]::placeholder {
+    font-size: 17px;
+    color: #7B7B7B;
+    text-align: left;
+}
+#login p a {
+    font-size: 17px;
+    color: #858585;
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 26px;
+    margin-bottom: 47px;
+}
+#login input[type="submit"] {
+    width: 150px;
+    height: 50px;
+    background-color: #DF2626;
+    border: 0;
+    border-radius: 40px;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.16);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sns {
+    margin-top: 40px;
+}
+.sns a {
+    display: inline-block;
+}
+.sns a img {
+    width: 35px;
+    height: 35px;
+}
+.sns p {
+    font-size: 16px;
+    color: #8F8F8F;
+}
