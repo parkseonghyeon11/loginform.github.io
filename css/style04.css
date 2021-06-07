@@ -187,6 +187,7 @@ legend {
     height: 45px;
     margin: 0 auto;
     line-height: 45px;
+    margin-bottom: 62px;
 }
 .signup .in8 .box02 input[type="checkbox"] {
     width: 25px;
@@ -210,5 +211,4 @@ legend {
     color: #fff;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 62px;
 }
